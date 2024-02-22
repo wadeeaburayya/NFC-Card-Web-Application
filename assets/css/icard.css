@@ -1,0 +1,229 @@
+.sw-75{
+    width: 75%;
+}
+.pparea {
+    width: 150px;
+    margin: -75px auto 0 auto;
+}
+.pparea img {
+    border-radius: 50%;
+    border: solid 5px white;
+    box-shadow: 0px 0px 3px 2px #0000001f;
+}
+.clogo {
+    width: 150px;
+    height: auto;
+}
+.qrshow {
+    width: 50px;
+    position: absolute;
+    margin-left: 380px;
+    cursor: pointer;
+}
+.contactbtn {
+    padding: 13px 10px;
+    border-radius: 10px;
+}
+.contactbtn a {
+    text-decoration: none;
+}
+.br-10 {
+    border-radius: 10px;
+}
+.btnclose {
+    cursor: pointer;
+}
+.popuparea {
+    background-color: rgb(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+    z-index: 1;
+}
+.popupbox {
+    width: 480px;
+    z-index: 2;
+    background-color: white;
+    padding: 20px 10px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -240px;
+    left: 50%;
+    top: -600px;
+}
+h1 {
+    font-weight: 400;
+    font-size: 32px;
+}
+.sm1 {
+    margin: 150px auto 0 auto;
+}
+.sm2 {
+    width: 150px;
+    margin: 0 auto;
+}
+.btnclosepos {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 20px;
+}
+.popuppp {
+    border-radius: 50%;
+    border: solid 5px white;
+    box-shadow: 0px 0px 3px 2px #0000001f;
+}
+.btn-slide {
+    position: relative;
+    display: inline-block;
+    height: 53px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #fdfdfd;
+    margin: 10px;
+    transition: 0.5s;
+}
+.btn-slide:hover {
+    background-color: white;
+}
+.btn-slide:hover span.circle {
+    left: 100%;
+    margin-left: -45px;
+    color: white;
+}
+.btn-slide:hover span.title {
+    left: 40px;
+    opacity: 0;
+}
+.btn-slide:hover span.title-hover {
+    opacity: 1;
+    left: 40px;
+}
+.btn-slide span.circle {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.btn-slide span.title,
+.btn-slide span.title-hover {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn-slide span.title-hover {
+    left: 80px;
+    opacity: 0;
+}
+.socials {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.icon-container {
+    text-align: center;
+    margin-right: 5px; /* Adjust as needed for spacing between icons */
+}
+
+.fa-2xl {
+    font-size: 2em; /* Adjust as needed */
+}
+
+@media (max-width: 1399px) {
+    .sw-75 {
+        width: 85%;
+    }
+
+    .popupbox {
+        width: 460px;
+        margin-left: -230px;
+    }
+
+    .btnclosepos {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .qrshow {
+        margin-left: 300px;
+    }
+
+    .popupbox {
+        width: 386px;
+        margin-left: -195px;
+    }
+
+    .btnclosepos {
+        margin-left: 330px;
+    }
+}
+
+@media (max-width: 767px) {
+    .qrshow {
+        margin-left: 350px;
+    }
+
+    .popupbox {
+        width: 440px;
+        margin-left: -220px;
+    }
+
+    .btnclosepos {
+        margin-left: 380px;
+    }
+}
+
+@media (max-width: 538px) {
+    .qrshow {
+        margin-left: 0px;
+        right: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .qrshow {
+        margin-left: 0px;
+        right: 60px;
+    }
+
+    .popupbox {
+        width: 384px;
+        margin-left: -192px;
+    }
+
+    .btnclosepos {
+        margin-left: 320px;
+    }
+}
+
+@media (max-width: 410px) {
+    .qrshow {
+        margin-left: 0px;
+        right: 50px;
+    }
+
+    .popupbox {
+        width: 324px;
+        margin-left: -162px;
+    }
+
+    .btnclosepos {
+        margin-left: 280px;
+    }
+}

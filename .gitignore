@@ -1,0 +1,7 @@
+vendor/
+.env
+.DS_Store
+.well-known
+.vscode
+composer/
+```
